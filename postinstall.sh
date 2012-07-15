@@ -50,7 +50,7 @@ echo "Do you want to install MULTIMEDIA packages ? (y/n) :"
 read rep
 if [ $rep = "y" ] || [ $rep = "yes" ]
 then
-    PAQUETS=$PAQUETS" vlc gimp"
+    PAQUETS=$PAQUETS" vlc gimp rapid-photo-downloader"
     MULTIMEDIA_PACKAGES="1"
 fi
 # Others
