@@ -41,7 +41,7 @@ echo "Do you want to install DEVELOPPMENT packages ? (y/n) :"
 read rep 
 if [ $rep = "y" ] || [ $rep = "yes" ]
 then
-    PAQUETS=$PAQUETS" vim-gnome gcc subversion git gitg git-flow mercurial zsh ctags tmux rubygems"
+    PAQUETS=$PAQUETS" vim-gnome gcc subversion git gitg git-flow mercurial zsh ctags tmux rubygems exuberant-ctags"
     DEV_PACKAGES="1"
 fi
 
